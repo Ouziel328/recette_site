@@ -1,0 +1,185 @@
+* {
+    overflow: auto;
+}
+body{
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 350px;
+}
+
+div.main {
+    background-color: white;
+    margin: 40px 8px 40px 8px;
+    padding: 0px 8px 20px 8px;
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.2);
+    overflow: visible;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+p.description {
+    text-align: center;;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.centre {
+    text-align: center;
+    width: 100%;
+}
+
+p.post-it {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: -15px;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.post-it {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+
+div.separator {
+    background-color: black;
+    height: 1px;
+    width: 100px;
+    margin-inline: auto;
+}
+
+table.info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #6C829dc0;
+    height: 50px;
+}
+
+table.info td {
+    text-align: center;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+table.info th {
+    font-size: 14px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+}
+
+div.info {
+    position: relative
+}
+
+.img_info {
+    display: block;
+    min-height: 200px;
+    max-height: 400px ;
+    object-fit: cover;
+    background-color: lightslategray;
+}
+
+div.colone {
+    width: 100%;
+    margin-top: 20px;
+    /* display: flex; */
+}
+
+
+div.colone h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-bottom: 10px solid #6C829d;
+}
+
+div.colone1 {
+    display: inline-block;
+}
+
+div.ingredients p {
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    padding: 8px 0;
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
+
+table.preparation p.td1{
+    background-color: #6C829d;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 0;
+}
+
+table.preparation td {
+    vertical-align: top;
+}
+
+table.preparation td.preparation_etape {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+table.preparation tr {
+    height: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    div.main {
+        margin: 60px 10% 80px 10%;
+        padding: 0px 30px 30px 30px;
+        min-width: 350px;
+    }
+
+    table.info {
+        height: 80px;
+    }
+
+    table.info td {
+        font-size: 14px;
+    }
+
+    table.info th {
+        font-size: 16px;
+    }
+    div.colone {
+        width: 45%;
+    }
+
+    div.colone1 {
+        margin-right: 10%;
+    }
+    
+    div.colone2  {
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    div.main {
+        margin-inline: auto;
+        width: 645px;
+    }
+
+}
